@@ -208,7 +208,7 @@ PLATFORMS
   x86-mingw32
 
 DEPENDENCIES
-  activeadmin (~> 1.0.0.pre1)
+  activeadmin
   byebug
   coffee-rails (~> 4.1.0)
   devise

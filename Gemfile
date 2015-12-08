@@ -7,7 +7,7 @@ group :production do
   gem 'rails_12factor'
 end
 
-gem 'activeadmin', '~> 1.0.0.pre1'
+gem 'activeadmin'
 
 gem 'starter_generators', :git => "http://github.com/rbetina/starter_generators.git"
 

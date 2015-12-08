@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   devise_for :admin_users, ActiveAdmin::Devise.config
+  devise_for :admin_users, ActiveAdmin::Devise.config
   ActiveAdmin.routes(self)
   # Routes for the Photo resource:
   # CREATE
@@ -19,7 +20,7 @@ Rails.application.routes.draw do
  # post "/update_photo/:id", :controller => "photos", :action => "update"
 
   # DELETE
-#  get "/delete_photo/:id", :controller => "photos", :action => "destroy"
+  get "/delete_photo/:id", :controller => "photos", :action => "destroy"
   #------------------------------
 
   # Routes for the Hiking_trail resource:
